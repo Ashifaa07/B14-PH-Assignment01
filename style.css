@@ -2,17 +2,18 @@
 {
     margin: 0px;
     padding: 0%;
-    font-family: sans-serif;
-
+    font-family: "Inter", sans-serif;
 }
+
 
 nav
 {
    display: flex;
    justify-content: space-between;
    background-color:white;
+   align-items: center;
    margin: 0px;
-   padding: 8px;
+   padding: 12px;
 
 }
 ul
@@ -33,7 +34,7 @@ nav a
 .logo img
 {
     
-    margin-left:50px;
+    margin-left:120px;
     height: 38px;
     width: 150px;
 }
@@ -41,43 +42,39 @@ nav a
 .common-btn button
 {
     width: 180px;
-    height: 40px;
-    margin-right:50px;
+    height: 50px;
+    margin-right:120px;
     background-color: #1D4ED8;
     color: white;
     border: none;
     border-radius:9px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
     
 }
 
 .header-content button
 {
-    width: 180px;
-    height: 45px;
+    width: 200px;
+    height: 55px;
     background-color: #1D4ED8;
     border: none;
     border-radius: 9px;
     color: white;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
     justify-self: center;
-    margin-top: 200px;
+    margin-top: 180px;
     
 }
 .header-content h1
 {
     display: flex;
-    font-size: 55px;
+    font-size: 80px;
     justify-content: center;
     margin-top: 100px;
 }
-.header-content
-{
-    display: flex;
-    justify-content: center;
-}
+
 header
 {
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/banner.jpg') ; 
@@ -91,7 +88,9 @@ header
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .header-content
-{
+{  
+    display: flex;
+    justify-content: center;
     color: white;
     display: grid;
     flex-direction: column;
@@ -100,7 +99,7 @@ header
 }
 .header-content p {
     text-align: center;
-    font-size: 15px;
+    font-size: 22px;
 }
 .banner
 {
@@ -112,4 +111,60 @@ header
 {
     width: 100%;
     border-radius: 12px;
+}
+.speaker-section
+{
+    width: 70%;
+    margin: 120px auto;
+   
+}
+.speaker-section h2
+{
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.speaker-container
+{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap:26px;
+
+}
+.cards
+{
+   background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fffafa;
+
+}
+.card img
+{
+
+    width: 100%;
+
+}
+
+.card-content
+{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: grid;
+    gap:8px;
+    padding:18px 20px;
+}
+
+.card-content .dpt 
+{
+    color: #1D4ED8;
+    font-weight: bold;
+    font-size: 12px ;
+}
+.card-content h3
+{
+    font-size: 18px;
+    font-weight: bold;
 }
