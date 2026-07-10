@@ -22,18 +22,20 @@ ul
    list-style: none;
    gap:40px;
 }
+
+nav a
+{
+  text-decoration: none;
+  color: #575757 ;
+ 
+}
+
 .logo img
 {
     
     margin-left:50px;
     height: 38px;
     width: 150px;
-}
-nav a
-{
-  text-decoration: none;
-  color: #575757 ;
- 
 }
 
 .common-btn button
@@ -44,8 +46,70 @@ nav a
     background-color: #1D4ED8;
     color: white;
     border: none;
-    border-radius: 12px;
+    border-radius:9px;
     font-weight: bold;
     font-size: 15px;
     
+}
+
+.header-content button
+{
+    width: 180px;
+    height: 45px;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    justify-self: center;
+    margin-top: 200px;
+    
+}
+.header-content h1
+{
+    display: flex;
+    font-size: 55px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.header-content
+{
+    display: flex;
+    justify-content: center;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/banner.jpg') ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header-content
+{
+    color: white;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+}
+.header-content p {
+    text-align: center;
+    font-size: 15px;
+}
+.banner
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+}
+.banner div img
+{
+    width: 100%;
+    border-radius: 12px;
 }
