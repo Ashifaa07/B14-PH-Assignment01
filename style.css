@@ -14,7 +14,7 @@ nav
    background-color:white;
    align-items: center;
    margin: 0px;
-   padding: 12px;
+   padding: 13px;
 
 }
 .navigation
@@ -22,7 +22,10 @@ nav
    padding: 10px;
    display: flex;
    list-style: none;
+   font-size: 20px;
    gap:40px;
+   justify-content: center;
+   align-items: center;
 }
 
 nav a
@@ -186,19 +189,10 @@ header
     color: #575757;
 } 
 
-/* 
-.payment-card{
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    height: 100px;
-    width: 200px;  
-    overflow: hidden;
 
-} */
 .card-container{
     display: flex;
     justify-content: space-between;
-  
     margin-top: 20px;
 }
 
@@ -276,4 +270,61 @@ hr{
     border: none;
     height: 1px;
     background-color: #888888;
+}
+
+/* footer */
+footer
+{
+    width: 100%;
+    background-color: #0D1B2A;
+    text-align: center;
+    overflow: hidden;
+}
+footer hr
+{
+   margin: 0 300px;
+}
+
+.footer-container
+{
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo
+{
+    background-size: cover;
+    height:30px;
+    width: 10px;
+    
+    background-position: center;
+}
+.socialmedia-link a
+{
+   text-decoration: none;
+   justify-content: space-around ;
+}
+.socialmedia-link p
+{
+    padding: 10px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.texts
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: #a5a3a3;
+    font-size: 14px;
+}
+
+.left-text
+{
+    display: flex;
+    justify-content: center ;
+    padding: 20px;
+    color: #a5a3a3;
+    font-size: 9px;
 }
