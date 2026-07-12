@@ -3,8 +3,8 @@
     margin: 0px;
     padding: 0%;
     font-family: "Inter", sans-serif;
+    
 }
-
 
 
 nav
@@ -19,13 +19,13 @@ nav
 }
 .navigation
 {
-   padding: 10px;
    display: flex;
    list-style: none;
    font-size: 20px;
    gap:40px;
    justify-content: center;
    align-items: center;
+   margin-bottom: 30px;
 }
 
 nav a
@@ -180,15 +180,16 @@ header
     display: grid;
     gap: 20px;  
 }
-.p-header{
-    text-align: center;
-    font-size: 50px;
-}
+
 .p-title{
     text-align: center;
     color: #575757;
 } 
 
+.payment h2{
+    font-size: 48px;
+    margin: 10px;
+}
 
 .card-container{
     display: flex;
@@ -197,11 +198,11 @@ header
 }
 
 .p-card{
-    border: 2px solid #ddd;
+   border: 2px solid #ddd;
    width: 270px;
    height: 390px;
    padding: 32px;
-    border-radius: 12px;
+   border-radius: 12px;
 }
 
 .price-header{
